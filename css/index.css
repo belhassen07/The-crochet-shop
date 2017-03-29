@@ -1,0 +1,172 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+/*couler ver principale: #23DE3D;*/
+.carousel img{
+	height: 90vh;
+	width:100%;
+    border-radius: 0;
+}
+.carousel-caption .btn {
+
+	margin-bottom: 16%;
+	
+}
+.carousel h3 {
+	font-size: 4em;
+}
+.two p{
+	margin-bottom: 20%;
+
+}
+.card-group{
+	margin-top: 6px;
+}
+.navbar{
+	background-color: #252525 !important;
+    min-height: 12vh;
+    border-radius: 0 ;
+    font-size: 18px;
+
+}
+
+.navbar .dropdown .dropdown-menu{
+    width: 280px;
+}
+
+.navbar .dropdown .dropdown-menu li {
+    font-weight: bold;
+}
+.navbar .dropdown .dropdown-menu img {
+    margin-right: 15px;
+    border: 1.3px dashed #000;
+    border-radius: 5px;
+}
+nav strong {
+    margin-right: 80px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.discover{
+    height: 50px;
+    width:200px;
+    background-color: #23DE3D;
+    border: none;
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 15%;
+    cursor: pointer;
+}
+.categories .container .row >div:not(.cleafix){
+    overflow: hidden;
+    margin-bottom: 30px;
+
+}
+.categories .container >div img{
+    width: 120%;
+    height: 350px;
+}
+
+.categories .container .row div:not(.cleafix){
+    padding: 30px;
+}
+.babies {
+    margin: 0 auto;
+}
+.categories h3{
+    font-weight: bold;
+    margin-top:35px;
+    text-align: center;
+    font-size: 5.1vh;
+}
+.categories .container .row div:not(.cleafix) a h3 {
+    color: #000
+}
+.categories .container .row div:not(.cleafix):hover{ 
+    transition: 0.3s ease;
+    cursor: pointer;
+    -webkit-filter: brightness(1.2);
+    filter: brightness(1.2);
+}
+.categories .container .row div:not(.cleafix):hover  {
+    color: #23DE3D;
+}
+
+/*section steps*/
+.steps{
+    margin-top: 20px;
+    padding: 60px;
+}
+.steps h2 {
+    margin: 0 auto;
+    font-size: 10.5vh;
+    display: block;
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight: 500
+  
+
+}
+.steps h4{
+    font-size: 35px;
+    font-weight: 400;
+    
+    margin-bottom: 20px;
+}
+.steps p {
+    font-size: 20px;
+}
+.steps p i{
+    margin-right: 10px;
+    font-size: 24px;
+}
+.page-footer{
+    background-color: #252525 !important
+}
+footer ul li {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+footer ul li i{
+    margin-right: 3px;
+}
+/* pages accesoires*/
+.accesoires_produits img{
+        height: 250px;
+}
+.section-title {
+    background-image: url(../img/back.jpg) ;
+    background-size: cover;  
+    height: 30vh;
+
+}
+.section-title h2{
+    color: #fff;
+    font-size: 8vw;
+    margin:3.5% 0 0 2%;
+    font-weight: 600;
+    width: 80%;
+}
+.ctn{
+    padding: 50px;
+    border: 3px solid transparent;
+}
+.animate-border {
+    animation-name: border_animate;
+    animation-duration: 1s;
+    animation-iteration-count: 4;
+    transition: .5s ease;
+
+    
+}
+ @keyframes border_animate {
+    0%{
+        border: 3px solid #fff;
+
+    }
+    10%{
+        border: 3px dashed #f01;
+    }
+ }
